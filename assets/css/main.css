@@ -617,6 +617,124 @@ section {
   }
 }
 
+/*Bank*/
+
+.hero_bank {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/hero_bg_bc.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0;
+  z-index: 3;
+}
+
+
+@media (min-width: 1034px) {
+  .hero_bank:after {
+    position: absolute;
+    content: "";
+    width: 40%;
+    background: var(--color-secondary);
+    top: 0;
+    bottom: 0;
+  }
+}
+
+.hero_bank:before {
+  position: absolute;
+  content: "";
+  background: rgba(27, 47, 69, 0.6);
+  inset: 0;
+}
+
+@media (max-width: 1034px) {
+  .hero_bank:before {
+    background: rgba(27, 47, 69, 0.7);
+  }
+}
+
+.hero_bank .container {
+  z-index: 1;
+}
+
+@media (min-width: 1365px) {
+  .hero_bank {
+    background-attachment: fixed;
+  }
+}
+
+.hero_bank h2 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  font-family: var(--font-secondary);
+}
+
+.hero_bank blockquote {
+  color: #fff;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: var(--font-default);
+  border-left: 2px solid var(--color-primary);
+  margin: 40px 0;
+}
+
+.hero_bank .btn-get-started {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: var(--color-primary);
+}
+
+.hero_bank .btn-get-started:hover {
+  background: rgba(86, 184, 230, 0.8);
+}
+
+.hero_bank .btn-watch-video {
+  font-size: 16px;
+  transition: 0.5s;
+  margin-left: 25px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+}
+
+.hero_bank .btn-watch-video i {
+  color: var(--color-primary);
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.hero_bank .btn-watch-video:hover {
+  color: #fff;
+}
+
+.hero_bank .btn-watch-video:hover i {
+  color: #82cbed;
+}
+
+@media (max-width: 640px) {
+  .hero_bank h2 {
+    font-size: 36px;
+    line-height: 1;
+  }
+
+  .hero_bank .btn-get-started,
+  .hero_bank .btn-watch-video {
+    font-size: 13px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Why Choose Us Section
 --------------------------------------------------------------*/
@@ -2211,3 +2329,29 @@ section {
   width:100%;
   position:absolute;
 }
+
+/*
+  CSS Chat bot
+*/
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1))
+  }
+  
+  .mask-custom {
+  background: rgba(24, 24, 16, .2);
+  border-radius: 2em;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  }
+
+  /*List Css*/
