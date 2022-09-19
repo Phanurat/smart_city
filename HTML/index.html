@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, materialpro admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, materialpro admin lite design, materialpro admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description"
+        content="Material Pro Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Dashboard Status</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/materialpro-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- chartist CSS -->
+    <link href="../assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="../assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
+    <link href="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!--This page css - Morris CSS -->
+    <link href="../assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_me.css">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <ul class="nav justify-content-center position-relative">
+            <li class="nav-item position-absolute top-0 start-0">
+                <a class="link_show_right link-danger" href="../index.html"> < Home </a>
+            </li>
+            
+            <!--<li class="nav-item position-absolute top-0 end-0">
+                <a href="#" class="link_show_left link-danger"> Link Left </a>
+            </li>-->
+        </ul>
+    </div>
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+            <div class="page-breadcrumb pt-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-8 align-self-center">
+                        <h3 class="page-title mb-0 p-0">Dashboard</h3>
+                        <div class="d-flex align-items-center">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Show Rigth Menu-->
+            <div class="overlay_right container-fluid">
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex flex-wrap align-items-center">
+                                            <div>
+                                                <h3 class="card-title">พลังงานฟรี</h3>
+                                                <h6 class="card-subtitle">สนับสนุนจากส่วนกลาง เพื่อให้ประชาชนใช้ฟรีๆ</h6>
+
+                                                <h5 class="d-flex mt-4">ไฟฟ้าฟรี <span class="ms-auto"> 300 หน่วย / 198 หน่วย ใช้ไป</span></h5>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="80"
+                                                        aria-valuemin="0" aria-valuemax="100" style="width:66%; height:10px;">
+                                                        <span class="sr-only"></span> </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <h3 class="card-title">สรุป</h3>
+                                                <h6 class="card-subtitle">รายจ่ายเดือนนี้</h6>
+
+                                                <table class="table">
+                                                    <thead>
+                                                      <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">ใช้ไป (หน่วย)</th>
+                                                        <th scope="col">เหลือ (หน่วย)</th>
+                                                        <th scope="col">ราคา (บาท)</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                      <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>198</td>
+                                                        <td>112</td>
+                                                        <td class="text-danger">0 บาท</td>
+                                                      </tr>
+                                            
+                                                    </tbody>
+                                                  </table>
+
+                                                <div class="d-grid gap-2 d-md-block">
+                                                    <button class="btn btn-outline-primary" type="button">ชำระเงิน</button>
+                                                </div>
+
+
+                                            </div>
+
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Show Rigth Menu -->
+            
+            <div class="container_show_now container-fluid">
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex flex-wrap align-items-center">
+                                            <div>
+                                                <h3 class="card-title">Use Electic Overview</h3>
+                                                <h6 class="card-subtitle">Week ago Vs This Week</h6>
+                                            </div>
+                                            <div class="ms-lg-auto mx-sm-auto mx-lg-0">
+                                                <ul class="list-inline d-flex">
+                                                    <li class="me-4">
+                                                        <h6 class="text-success"><i
+                                                            class="fa fa-circle font-10 me-2 "></i>Week ago</h6>
+                                                    </li>
+                                                    <li>
+                                                        <h6 class="text-info"><i
+                                                            class="fa fa-circle font-10 me-2"></i>This week</h6>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="amp-pxl" style="height: 360px;">
+                                            <div class="chartist-tooltip"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Our Visitors </h3>
+                                <h6 class="card-subtitle">Different Machine Electronic to Used </h6>
+                                <div id="visitor"
+                                    style="height: 290px; width: 100%; max-height: 290px; position: relative;"
+                                    class="c4">
+                                    <div class="c3-tooltip-container"
+                                        style="position: absolute; pointer-events: none; display: none;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <hr class="mt-0 mb-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <h5 class="d-flex mt-4">หลอดไฟ LED <span class="ms-auto">Used 5W / 220W</span></h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100" style="width:2.27%; height:6px;">
+                            <span class="sr-only"></span> </div>
+                    </div>
+                    
+                    <h5 class="d-flex mt-4">หลอดไฟฟ้า 11W <span class="ms-auto">Used 11W / 220W</span></h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100" style="width:5%; height:6px;">
+                            <span class="sr-only"></span> </div>
+                    </div>
+                    
+                    <h5 class="d-flex mt-4">ตู้เย็น ห้องครัว <span class="ms-auto">Used 194W / 220W</span></h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100" style="width:88.18%; height:6px;">
+                            <span class="sr-only"></span> </div>
+                    </div>
+                                
+                    <h5 class="d-flex mt-4">ตู้เย็น ห้องนอน <span class="ms-auto">Used 91W / 220W</span></h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:41.36%; height:6px;">
+                            <span class="sr-only"></span> </div>
+                    </div>
+                    
+                    <h5 class="d-flex mt-4">LED TV 42 <span class="ms-auto">Used 76W / 220W</span></h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100" style="width:34.54%; height:6px;">
+                            <span class="sr-only"></span> </div>
+                    </div>
+
+                    <h5 class="d-flex mt-4">LCD TV 32 <span class="ms-auto">Used 157W / 220W</span></h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100" style="width:76.36%; height:6px;">
+                            <span class="sr-only"></span> </div>
+                    </div>
+
+            </div>
+            
+            <footer class="footer"> © 2021 Material Pro Admin by <a href="https://www.wrappixel.com/">wrappixel.com </a>
+            </footer>
+        
+        </div>
+    </div>
+    
+    <script src="../assets/plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!-- chartist chart -->
+    <script src="../assets/plugins/chartist-js/dist/chartist.min.js"></script>
+    <script src="../assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+    <!--c3 JavaScript -->
+    <script src="../assets/plugins/d3/d3.min.js"></script>
+    <script src="../assets/plugins/c3-master/c3.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/pages/dashboards/dashboard1.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
